@@ -1,0 +1,116 @@
+.previous-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.your-audience-wants1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.make-it-easy1 {
+  position: relative;
+  font-size: var(--cta-18px-semibold-size);
+  font-weight: 500;
+}
+.iterator-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.wrapper-group-300-child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  transform: scale(1.099);
+}
+.content,
+.main,
+.wrapper-group-300 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.wrapper-group-300 {
+  width: 720px;
+  height: 405px;
+  position: relative;
+}
+.content,
+.main {
+  flex-direction: column;
+  gap: var(--gap-31xl);
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.main {
+  flex: 1;
+  min-width: 822px;
+}
+.next-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.about-highlighted-features1 {
+  flex: 1;
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h1-40px-bold-size);
+  color: var(--body);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 1125px) {
+  .main {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .your-audience-wants1 {
+    font-size: var(--font-size-13xl);
+  }
+  .content,
+  .main {
+    gap: var(--gap-6xl);
+  }
+  .about-highlighted-features1 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-audience-wants1 {
+    font-size: var(--h1-mobile-24px-bold-size);
+  }
+}

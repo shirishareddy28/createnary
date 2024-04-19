@@ -1,0 +1,164 @@
+.dictionary {
+  margin-left: -204px;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-262xl) 0 0;
+  box-sizing: border-box;
+}
+.creators-marketplace1 {
+  background: linear-gradient(90.37deg, #4a508e, #674a8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.create-your-first,
+.welcome-to-indias-container1 {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-family: inherit;
+}
+.welcome-to-indias-container1 {
+  align-self: stretch;
+  font-size: inherit;
+}
+.create-your-first {
+  font-size: var(--h4-22px-bold-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.expander {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.empower-your-creativity {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--cta-18px-semibold-size);
+  font-weight: 500;
+}
+.reducer {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+}
+.database,
+.hero-content1,
+.reducer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-content1 {
+  width: 474px;
+  gap: var(--gap-31xl);
+  z-index: 1;
+}
+.database {
+  padding: var(--padding-89xl) var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+}
+.responsive-device-33-copy-21 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  transform: scale(1.19);
+}
+.wrapper-32767469-responsive-de1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 210px);
+  max-height: 100%;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-image {
+  height: 630px;
+  width: 630px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.queue {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-161xl) var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-137xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h1-40px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 1350px) {
+  .queue {
+    flex-wrap: wrap;
+    gap: var(--gap-59xl);
+    justify-content: center;
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .welcome-to-indias-container1 {
+    font-size: var(--font-size-13xl);
+  }
+  .expander {
+    gap: var(--gap-xl);
+  }
+  .hero-content1 {
+    gap: var(--gap-6xl);
+  }
+  .database,
+  .queue {
+    box-sizing: border-box;
+  }
+  .database {
+    padding-top: var(--padding-51xl);
+  }
+  .queue {
+    gap: var(--gap-20xl);
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dictionary {
+    padding-top: var(--padding-164xl);
+    box-sizing: border-box;
+  }
+  .welcome-to-indias-container1 {
+    font-size: var(--h1-mobile-24px-bold-size);
+  }
+  .create-your-first {
+    font-size: var(--cta-18px-semibold-size);
+  }
+  .queue {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
